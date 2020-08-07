@@ -1,7 +1,11 @@
-## 주의사항
+## 주의사항 
+
 윈도우에서 버전 혹은 파이토치 호환 문제인 듯
+
 pip uninstall tensorboardX
+
 pip install tb-nightly
+
 tensorboard --logdir=logs
 > 경로지정시 주의. logs는 폴더 이름임 그 파일 안에 log들 담겨 있
 
